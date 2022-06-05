@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ body{
+   text-align: center;
+   background-color: #2F8F9D;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+header{
+    padding:3.5rem 0;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.text-count{
+    display: grid;
+    place-content: center;
+    text-align: left;
+    line-height: 2;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+textarea{
+    border:none;
+    border-radius:5px;
+    outline: none;
+}
+
+/*mobile*/
+
+@media only screen and (max-width :768px) {
+    header{
+        font-size: .75rem;
+    }
+    .text-count{
+        padding:0 1.5rem;
+        font-size:1.2rem ;
+    }
+}
