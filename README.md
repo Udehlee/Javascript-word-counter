@@ -1,7 +1,8 @@
 # Javascript-word-counter
 
 
-## Overview
+## Descrption
+It is an app that counts the number of characters and words inputted.The app checks for empty spaces and only permits one space at a time. Multiple spaces is not counted.
 
 ### The challenge
 
@@ -22,6 +23,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS properties
 - Grid layout
+- Vanilla javascript
 
 
 
